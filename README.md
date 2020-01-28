@@ -2,7 +2,7 @@
 Yapay zekaya ahlak, vicdan gibi soyut kavramlar kazandırılabileceğini ispatlamaya çalışan bir deney  
 
 İki yapay zekanın, kendilerine direkt olarak bir faydası dokunmayan bir eylemde bulunarak  
-başarı oranını arttırmayı öğrenebileceklerini göstermek istedim.  
+başarı oranını arttırmayı öğrenebilecekleri gösterilmektedir.  
 
 Deney düzeneği alttaki resimde gösterilmiştir.  
 
