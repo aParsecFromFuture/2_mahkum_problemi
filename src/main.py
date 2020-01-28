@@ -26,7 +26,7 @@ def run(prison_1, prison_2):
 
         if prison_1_alive:
             score_1 = score_1 + 1
-            output = np.argmax(prison_1.get_output([did_prison_2_feed, did_prison_1_feed, then_prison_2_feed]))
+            output = np.argmax(prison_1.get_output([did_prison_2_feed, did_prison_1_feed, then_prison_2_feed])[0])
             if output == 0:
                 prison_2_health = 3
                 then_prison_1_feed_next = True
@@ -37,7 +37,7 @@ def run(prison_1, prison_2):
 
         if prison_2_alive:
             score_2 = score_2 + 1
-            output = np.argmax(prison_2.get_output([did_prison_1_feed, did_prison_2_feed, then_prison_1_feed]))
+            output = np.argmax(prison_2.get_output([did_prison_1_feed, did_prison_2_feed, then_prison_1_feed])[0])
             if output == 0:
                 prison_1_health = 3
                 then_prison_2_feed_next = True
